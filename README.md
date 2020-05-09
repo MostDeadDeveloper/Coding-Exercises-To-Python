@@ -27,7 +27,19 @@ Currently Contains Problem 1 and 2 Only. Problem 3, 4 and 5 is currently ongoing
 | {YourName}-Branch                   | name of the branch you are pertaining to in the command.                         |
 
 
-# Step 1 :  How to Get a Copy of this repository.
+# Step 0 : What is Github?  ( Optional)
+
+#### I reccomend you watch this video to get a basic gist of how github works and the process we are conducting.
+Link : https://www.youtube.com/watch?v=w3jLJU7DT5E
+
+# Step 1 : Install Git in your machine
+
+Please install Git in your machine, for you to be able to use it in your respective command line/terminals. (Also known as cmd in windows, and Terminals in Unix Machines)
+
+Use this link as reference.
+Link: https://www.atlassian.com/git/tutorials/install-git
+
+# Step 2 :  How to Get a Copy of this repository.
 
 Find a suitable area to put the files and type the command. 
 ```
@@ -35,7 +47,7 @@ Find a suitable area to put the files and type the command.
 ```
 # Modify only the folder you are assigned to.
 
-# Step 2 : Submitting my work
+# Step 3 : Submitting my work
 
 -Go to the repository/directory/folder where this copy of the repository is saved.
 - Type the command : ```git checkout -b {YourName}-Branch```
@@ -48,6 +60,6 @@ Find a suitable area to put the files and type the command.
 
 ### I reccomend you do this everytime you are finished coding for the day. That way we can track past and present versions of your work, utilizing Github's version control system.
 
-# Step 3 : Do this part if you have finished "everything".
+# Step 4 : Do this part if you have finished "everything".
 - Go to github and make a pull request.
   Note : A pull request is where we evaluate and finalize your submitted work, and make any possible changes. In the industry, this process is also known as "code review".

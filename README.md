@@ -5,19 +5,16 @@ Currently Contains Problem 1 and 2 Only. Problem 3, 4 and 5 is currently ongoing
 
 # FAQS:
 
-Legend and Explanation of Each Command
+### Legend and Explanation of Each Command
 
-
-| Variable               | Description                                                                 |
-|------------------------|-----------------------------------------------------------------------------|
-| SECRET_KEY             | Secret key settings of Django                                               |
-| APP_ENV                | Name of the Django settings file you've created. Typically "dev_yourname"   |
-| POSTGRES_USER          | Username of Postgres default User to be created                             |
-| POSTGRES_DB            | Name of default Postgres Database to be created                             |
-| POSTGRES_PASSWORD      | Password for the default Postgres User                                      |
-| RABBITMQ_DEFAULT_USER  | Username of RabbitMQ's default User                                         |
-| RABBITMQ_DEFAULT_PASS  | Password for the default RabbitMQ User                                      |
-| RABBITMQ_DEFAULT_VHOST | Name of default RabbitMQ Virtual Host                                       |
+| Command                                      | Command's Use and Explanation                      |
+|----------------------------------------------|----------------------------------------------------|
+| git clone                                    |                                                    |
+| git status                                   |                                                    |
+| git add --all                                |                                                    |
+| git commit -m "Write here what you changed"  |                                                    |    
+| git push                                     |                                                    |
+| git push -u origin {YourName}-Branch         |                                                    |
 
 
 # How to Get a Copy of this repository.

@@ -60,6 +60,6 @@ Find a suitable area to put the files and type the command.
 
 ### I reccomend you do this everytime you are finished coding for the day. That way we can track past and present versions of your work, utilizing Github's version control system.
 
-# Step 4 : Do this part if you have finished "everything".
+# Step 4 : Do this part if you have finished something and want to "submit your final answer".
 - Go to github and make a pull request.
   Note : A pull request is where we evaluate and finalize your submitted work, and make any possible changes. In the industry, this process is also known as "code review".

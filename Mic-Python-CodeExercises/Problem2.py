@@ -84,4 +84,65 @@
 		Make the Program that Sir Carl is requesting and pass the interview process of CCIS.
 
 """
+import sys
+import string
 
+def checker(idnum):
+    intcount = 0
+    strcount = 0
+
+    spchar = set(string.punctuation)
+    if any(char in spchar for char in idnum):
+        print("Invalid.")
+        return 1
+    
+    for i in range(len(idnum)):
+        if idnum[i].isdigit():
+            intcount += 1
+        else:
+            strcount += 1
+        i+=1
+
+    if (len(str(idnum)) > 12) or (intcount < 6) or (strcount < 4):
+        print("Invalid Identification Number.")
+        return 1
+    else:
+        return 0
+
+def recorder():
+    count = 0
+    record = []
+
+    while count < 3:
+        idnum = input("Enter Identification Number: ")
+        name = input("Enter Name: ")
+        phone = input("Enter Phone Number: ")
+        email = input("Enter email: ")
+        print("\n")
+
+        if checker(idnum) == 1:
+            pass
+        
+        else:
+            record.append([idnum, name, phone, email])
+            count+=1
+    return record
+
+def search(records):
+    idsrch = input("Enter an ID Number: ")
+
+    for i in range(3):
+        if records[i][0] == idsrch:
+            print("Name: " + records[i][1])
+            print("Phone Number: " + records[i][2])
+            print("Email :" + records[i][3])
+        else:
+            i+=1
+
+record = recorder()
+n = '1'
+while n != '0':
+    n = input("Make a query? Enter value to continue except 0: ")
+    if n == '0':
+        break
+    search(record)

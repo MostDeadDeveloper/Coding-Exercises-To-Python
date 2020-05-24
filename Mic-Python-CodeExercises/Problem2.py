@@ -146,3 +146,22 @@ while n != '0':
     if n == '0':
         break
     search(record)
+
+
+"""
+    Problem Result : Passed
+
+    Reccomendations : Consider Using the Built In Dictionairies in Python. They use the key-pair syntax, that is overall perfect for this   problem. Dictionaries also are not limited by the primitive data types(strings,int,double), you can also insert objects you made there or lists. 
+
+    Meaning you could have done this solution instead: Make A String Key which is equal to the Identification Number and the pair value is a list containing all of the data of that identification key.
+
+    Sample Code:
+
+    data = {}
+
+    firstpair["Identification_Number"] = ["Name","Email","Phone_Number"]
+    secondpair["2nd Identification Number"] = ['Name','Email','Phone_Number']
+    .....
+    Until the last pair.
+
+"""

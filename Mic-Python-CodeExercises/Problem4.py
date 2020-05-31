@@ -52,9 +52,9 @@ def checker(words):
     try:
         while i != len(words):
             while j != len(words):
-                if (words[i]).lower() == (words[j]).lower():
+                if (((words[i]).lower() == (words[j]).lower()) and (i != j)):
                     words.pop(j)
-                j+=1
+                else: j+=1
             i+=1
             j = i+1
     except: pass

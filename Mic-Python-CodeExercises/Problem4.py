@@ -41,3 +41,27 @@ A Python Programmer. Thus, you are obsessed with one line comments and super eff
 Note : For Sample Input&Output 3, there are multiple Possible Outputs. I did not list them all for that is time consuming and repetitive.
 
 """
+import sys
+import time
+
+def checker(words):
+    words = words.split()
+    
+    i = 0
+    j = 1
+    try:
+        while i != len(words):
+            while j != len(words):
+                if (words[i]).lower() == (words[j]).lower():
+                    words.pop(j)
+                j+=1
+            i+=1
+            j = i+1
+    except: pass
+    return words
+
+sentence = input()
+print(' '.join(checker(sentence)))
+
+time.sleep(5)
+
